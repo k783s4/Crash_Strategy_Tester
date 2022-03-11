@@ -40,5 +40,8 @@ This is not production-grade code. It is the result of four days of tinkering ar
 3.Write your bots in the main.py file.</br>
 > Each function is a different bot. Different bots receive different parameters. Bots need to return the exit multiplier followed by the bet
 </br>
-4. Run python ./test.py
+4.Get the game data using get_file.py by pasting the current and first game hash into the file (can be found by clicking on past games in the timeline in Crash)
+ and renaming the file multipliers.csv</br>
+ Alternatively just use old real game data and rename multipliers_old.csv to multipliers.csv</br>
+ 5. Run python ./test.py
 </br></br>
